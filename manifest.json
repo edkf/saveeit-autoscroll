@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Disable Adblock Detector",
+  "short_name": "Disable Adblock Detector",
+  "version": "1.0",
+  "description": "Remove boring modals asking you to disable your Adblock. 🙄",
+  "author": "Edgard Kozlowski <hello@edkf.com.br> (http://edkf.com.br)",
+  "commands": {
+  "_execute_browser_action": {}
+  },
+  "content_scripts": [
+      {
+        "matches": [
+          "https://*.savee.it/"
+        ], 
+        "js": ["index.js"],
+        "run_at": "document_start"
+      }
+  ],
+  "permissions": ["tabs", "webNavigation", "*://*/*", "activeTab" ]
+}
