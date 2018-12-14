@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="controls" transform="translate(-150.000000, 0.000000)">
+            <g id="close" transform="translate(150.000000, 0.000000)">
+                <polygon id="Path" fill="#000000" points="0 0 50 0 50 50 0 50"></polygon>
+                <polyline id="Path-2" stroke="#FFFFFF" points="18.0148926 21.9880981 22.4403076 21.9880981 22.4403076 17.9790039"></polyline>
+                <polyline id="Path-2" stroke="#FFFFFF" transform="translate(30.212708, 20.004547) scale(-1, 1) translate(-30.212708, -20.004547) " points="28 22.0090942 32.425415 22.0090942 32.425415 18"></polyline>
+                <polyline id="Path-2" stroke="#FFFFFF" transform="translate(30.212708, 30.004547) rotate(-180.000000) translate(-30.212708, -30.004547) " points="28 32.0090942 32.425415 32.0090942 32.425415 28"></polyline>
+                <polyline id="Path-2" stroke="#FFFFFF" transform="translate(20.227600, 29.983551) scale(-1, 1) rotate(-180.000000) translate(-20.227600, -29.983551) " points="18.0148926 31.9880981 22.4403076 31.9880981 22.4403076 27.9790039"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

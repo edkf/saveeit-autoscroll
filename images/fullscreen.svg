@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>fullscreen</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="controls" transform="translate(-100.000000, 0.000000)">
+            <g id="fullscreen" transform="translate(100.000000, 0.000000)">
+                <polygon id="Path" fill="#000000" points="0 0 50 0 50 50 0 50"></polygon>
+                <rect id="Rectangle" stroke="#FFFFFF" x="18.5" y="18.5" width="13" height="13"></rect>
+                <rect id="Rectangle" fill="#000000" x="23" y="18" width="4" height="14"></rect>
+                <rect id="Rectangle" fill="#000000" transform="translate(25.000000, 25.000000) rotate(-90.000000) translate(-25.000000, -25.000000) " x="23" y="18" width="4" height="14"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,11 +1,27 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
+  var isPlaying = false
+
+  var playBtn = new Image();
+  var fullScreenBtn = new Image();
+  playBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/play.svg'
+  fullScreenBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/fullscreen.svg'
+
   var isGridPage = document.querySelector('.grid')
   
   if (isGridPage !== null) {
 
     // Play scroll
     function pageScroll() {
+
+      if (isPlaying) {
+        playBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/pause.svg'
+        isPlaying = false
+      } else {
+        playBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/play.svg'
+        isPlaying = true
+      }
+
       window.scrollBy(0,1);
       scrolldelay = setTimeout(pageScroll, 30);
     }
@@ -29,9 +45,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
       var playPause = document.createElement('button')
       var fullScreen = document.createElement('button')
+      playPause.setAttribute('style', 'padding: 0;')
+      fullScreen.setAttribute('style', 'padding: 0;')
 
-      playPause.textContent = '▶'
-      fullScreen.textContent = 'F'
+      playPause.appendChild(playBtn)
+      fullScreen.appendChild(fullScreenBtn)
 
       playFullScreenContent.appendChild(playPause)
       playFullScreenContent.appendChild(fullScreen)
