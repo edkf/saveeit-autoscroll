@@ -13,18 +13,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // Play scroll
     function pageScroll() {
-
       if (isPlaying) {
         playBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/pause.svg'
-        isPlaying = false
+        window.scrollBy(0,1);
+        scrolldelay = setTimeout(pageScroll, 30);
       } else {
         playBtn.src = 'https://res.cloudinary.com/dyw3e3f2c/image/upload/v1544757407/saveeit/play.svg'
-        isPlaying = true
       }
-
-      window.scrollBy(0,1);
-      scrolldelay = setTimeout(pageScroll, 30);
     }
+
+    function toggleScroll () {
+      isPlaying = !isPlaying
+      pageScroll()
+    }
+
 
     /* View in fullscreen */
     var elem = document.documentElement;
@@ -55,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       playFullScreenContent.appendChild(fullScreen)
 
       // Event
-      playPause.addEventListener('click', pageScroll)
+      playPause.addEventListener('click', toggleScroll)
       fullScreen.addEventListener('click', openFullscreen)
 
     }, 3000);
