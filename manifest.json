@@ -1,13 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "Savee.it autoscroll",
-  "short_name": "Savee.it autoscroll",
+  "name": "Automatic scroll for Savee.it",
+  "short_name": "Automatic scroll for Savee.it",
   "version": "1.0",
-  "description": "Savee.it autoscroll",
+  "description": "Unofficial plugin that turns your savee.it into a screen saver.",
   "author": "Edgard Kozlowski <hello@edkf.com.br> (http://edkf.com.br)",
   "commands": {
   "_execute_browser_action": {}
   },
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+    },
   "content_scripts": [
       {
         "matches": [
@@ -17,5 +23,5 @@
         "run_at": "document_start"
       }
   ],
-  "permissions": ["tabs", "webNavigation", "*://*/*", "activeTab" ]
+  "permissions": ["activeTab" ]
 }
