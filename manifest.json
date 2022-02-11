@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Automatic scroll for Savee.it",
   "short_name": "Automatic scroll for Savee.it",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "Unofficial plugin that turns your savee.it into a screen saver.",
   "author": "Edgard Kozlowski <hello@edkf.com.br> (http://edkf.com.br)",
   "commands": {
